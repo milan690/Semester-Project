@@ -1,0 +1,100 @@
+@import url(./reset.css);
+
+header{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+header h1{
+    font-size: 3em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header h2 {
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: beige;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body > nav ul {
+    display: flex;
+    justify-content:   
+    space-around;
+    background: #344a5f;
+}
+
+body > nav li {
+    padding: 1em;
+}
+
+body > nav a {
+    text-decoration: none;
+    color: #f39c12;
+}
+
+body > nav a:hover {
+    color: #f1c40f;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    order: 2;
+}
+
+article {
+    width: 200px;
+    padding: 1em;
+}
+
+article img {
+    width: 150px;
+    height:100px;
+}
+
+#content {
+    display: flex;
+}
+
+header img{
+    height: 100px;
+    width: 100px;
+}
+
+aside img{
+    height: 500px;
+    width: 300px;
+}
+
+aside {
+    width: 25%;
+    order: 1;
+}
+
+#add {
+    height: 50px;
+    width: 400px;
+}
+
+#cdno {
+    width: 60px;
+}
+
+#name {
+    width: 350px;
+}
+
+article footer {
+    font-weight: bold;
+    font-size: 1em;
+}
+
+article p {
+    font-size: 1em;
+}
